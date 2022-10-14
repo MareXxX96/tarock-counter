@@ -25,7 +25,7 @@ import {
   STitle,
 } from "../modal/modal.styles";
 
-import { setVisible } from "../../store/modal/modal.action";
+import { setModalPage, setVisible } from "../../store/modal/modal.action";
 
 const PlayerCreator = () => {
   //Buttonselect
@@ -73,6 +73,7 @@ const PlayerCreator = () => {
 
   const nextPage = () => {
     dispatch(setVisible(false));
+    dispatch(setModalPage(0))
   };
 
 
