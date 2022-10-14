@@ -1,0 +1,4 @@
+export const MODAL_ACTION_TYPES = {
+    SET_MODAL_PAGE: 'modal/SET_MODAL_PAGE',
+    SET_VISIBILITY: 'modal/SET_VISIBILITY'
+  };

@@ -1,0 +1,4 @@
+export const GAME_ACTION_TYPES = {
+    SET_ROUND_ITEMS: 'round/SET_ROUND_ITEMS',
+    SET_ROUND_COUNT: 'round/SET_ROUND_COUNT'
+  };
